@@ -1,4 +1,4 @@
-# VolumeControl
+# Windows Volume Mixer Control
 
  Discord| Maintained|
 | :-: | :-: |
