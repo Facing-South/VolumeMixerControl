@@ -1,10 +1,12 @@
 # Windows Volume Mixer Control
 
- Discord| Maintained|
+ License| Maintained|
 | :-: | :-: |
-| [![Discord](https://img.shields.io/discord/641713710087405589.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/C3gfHBJ) | [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) |
+| ![License](https://img.shields.io/github/license/Facing-South/VolumeMixerControl) | [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) |
 
 This program controls the volume of individual applications under Windows and was developed with Python.
+
+https://img.shields.io/github/license/Facing-South/VolumeMixerControl
 
 ## Necessary packages
 - import pythoncom
