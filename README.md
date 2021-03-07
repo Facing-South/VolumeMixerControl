@@ -4,7 +4,7 @@
 | :-: | :-: | :-: |
 | ![License](https://img.shields.io/github/license/Facing-South/VolumeMixerControl) | [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) | ![LastCommit](https://img.shields.io/github/last-commit/Facing-South/VolumeMixerControl) |
 
-This program controls the volume of individual applications under Windows and was developed with Python.
+This program enables the volume of individual applications to be changed at the push of a button.
 
 https://img.shields.io/github/license/Facing-South/VolumeMixerControl
 
