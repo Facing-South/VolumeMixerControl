@@ -1,8 +1,8 @@
 # Windows Volume Mixer Control
 
- License| Maintained|
-| :-: | :-: |
-| ![License](https://img.shields.io/github/license/Facing-South/VolumeMixerControl) | [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) |
+| License | Maintained | Last Commit |
+| :-: | :-: | :-: |
+| ![License](https://img.shields.io/github/license/Facing-South/VolumeMixerControl) | [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) | ![LastCommit](https://img.shields.io/github/last-commit/Facing-South/VolumeMixerControl) |
 
 This program controls the volume of individual applications under Windows and was developed with Python.
 
