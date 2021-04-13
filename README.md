@@ -4,8 +4,6 @@
 
 This program enables the volume of individual applications to be changed at the push of a button.
 
-https://img.shields.io/github/license/Facing-South/VolumeMixerControl
-
 ## Necessary packages
 - import pythoncom
 - from pynput.keyboard import Key
