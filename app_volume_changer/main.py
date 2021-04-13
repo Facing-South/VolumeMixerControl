@@ -4,10 +4,12 @@
 from pynput.keyboard import Key
 from pynput.keyboard import Listener
 
+
 #--------------------------------------------------------------------------------------------------------------#
 # Import files ------------------------------------------------------------------------------------------------#
 #--------------------------------------------------------------------------------------------------------------#
 from audio import setAppVolumeName
+
 
 #--------------------------------------------------------------------------------------------------------------#
 # Constants ---------------------------------------------------------------------------------------------------#
@@ -15,41 +17,46 @@ from audio import setAppVolumeName
 SIM_HIGH = 0.8
 SIM_LOW = 0.05
 
+
 #--------------------------------------------------------------------------------------------------------------#
 # Global variables --------------------------------------------------------------------------------------------#
 #--------------------------------------------------------------------------------------------------------------#
 active_sim = SIM_HIGH
 
+
 #--------------------------------------------------------------------------------------------------------------#
-# Definitions -------------------------------------------------------------------------------------------------#
+# Methods -----------------------------------------------------------------------------------------------------#
 #--------------------------------------------------------------------------------------------------------------#
 def on_release(key):
-  global active_sim
+    global active_sim
 
-  if key == Key.f1:
-    if active_sim == SIM_HIGH:
-      setAppVolumeName('FlightSimulator.exe', SIM_LOW)
-      print(f'Flight-Simulator volume set to {SIM_LOW * 100}%')
-      active_sim = SIM_LOW
-    elif active_sim == SIM_LOW:
-      setAppVolumeName('FlightSimulator.exe', SIM_HIGH)
-      print(f'Flight-Simulator volume set to {SIM_HIGH * 100}%')
-      active_sim = SIM_HIGH
-    else:
-      setAppVolumeName('FlightSimulator.exe', SIM_HIGH)
-      print(f'Flight-Simulator volume set to {SIM_HIGH * 100}%')
-      active_sim = SIM_HIGH
+    if key == Key.f1:
+        if active_sim == SIM_HIGH:
+            setAppVolumeName('FlightSimulator.exe', SIM_LOW)
+            print(f'Flight-Simulator volume set to {SIM_LOW * 100}%')
+            active_sim = SIM_LOW
 
-  # if key == Key.f5:
-  #   print('Quit')
-  #   exit(1)
+        elif active_sim == SIM_LOW:
+            setAppVolumeName('FlightSimulator.exe', SIM_HIGH)
+            print(f'Flight-Simulator volume set to {SIM_HIGH * 100}%')
+            active_sim = SIM_HIGH
+
+        else:
+            setAppVolumeName('FlightSimulator.exe', SIM_HIGH)
+            print(f'Flight-Simulator volume set to {SIM_HIGH * 100}%')
+            active_sim = SIM_HIGH
+
+    # if key == Key.f5:
+    #   print('Quit')
+    #   exit(1)
+
 
 #--------------------------------------------------------------------------------------------------------------#
 # Execute -----------------------------------------------------------------------------------------------------#
 #--------------------------------------------------------------------------------------------------------------#
 try:
-  with Listener(on_release=on_release) as listener:
-    listener.join()
+    with Listener(on_release=on_release) as listener:
+        listener.join()
 except Exception as e:
-  print(e)
-  input()
+    print(e)
+    input()
