@@ -1,8 +1,6 @@
-# Windows Volume Mixer Control
+# App Volume Changer
 
-| License | Maintained | Last Commit |
-| :-: | :-: | :-: |
-| ![License](https://img.shields.io/github/license/Facing-South/VolumeMixerControl) | [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) | ![LastCommit](https://img.shields.io/github/last-commit/Facing-South/VolumeMixerControl) |
+![License](https://img.shields.io/github/license/Facing-South/VolumeMixerControl) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 This program enables the volume of individual applications to be changed at the push of a button.
 
@@ -20,9 +18,5 @@ In the release version 1.0.0, which can be found in this repository, there is an
 ## Editing
 In order to be able to change the volume of another application, it is sufficient to specify the maximum and minimum value of the application in the main.py file under the section "Constants". Then you can either replace FlightSimulator.exe with another name under Definitions or add another key.
 
-# Contribution
-I am very happy about each of you who want to expand the code with me. Please follow the following guidelines:
-
-- Add an issue to this repository and give it a name
-- Fork this repository and add your changes
-- Create a pull-request with your changes
+## Contribution
+I am very happy about each of you who want to expand the code with me. Just write me a mail or join my discord-server to start the contribution with me.
