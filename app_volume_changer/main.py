@@ -54,9 +54,10 @@ def on_release(key):
 #--------------------------------------------------------------------------------------------------------------#
 # Execute -----------------------------------------------------------------------------------------------------#
 #--------------------------------------------------------------------------------------------------------------#
-try:
-    with Listener(on_release=on_release) as listener:
-        listener.join()
-except Exception as e:
-    print(e)
-    input()
+if __name__ == '__main__':
+    try:
+        with Listener(on_release=on_release) as listener:
+            listener.join()
+    except Exception as e:
+        print(e)
+        input()
