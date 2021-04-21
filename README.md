@@ -1,6 +1,4 @@
-# App Volume Changer
-
-![License](https://img.shields.io/github/license/Facing-South/VolumeMixerControl) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+# app-volume-changer
 
 This program enables the volume of individual applications to be changed at the push of a button.
 
